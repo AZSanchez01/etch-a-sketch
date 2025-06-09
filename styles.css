@@ -1,6 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+}
 .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 600px;
     height: 600px;
     flex-wrap: wrap;
