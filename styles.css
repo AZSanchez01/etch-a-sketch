@@ -1,6 +1,9 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background: lightgray;
 }
 .container {
     display: flex;
@@ -8,4 +11,6 @@ body {
     width: 600px;
     height: 600px;
     flex-wrap: wrap;
+    border: solid;
+    border-color: darkslategray;
 }
