@@ -1,9 +1,9 @@
 
 //Select container
-let container = document.querySelector(".container");
+const container = document.querySelector(".container");
 
 //Get Number and size of each square to fit into container
-let containerSize = 600;
+const containerSize = 600;
 let sideSquares = 150;
 let totalSquares = sideSquares**2;
 let squareSize = containerSize/sideSquares;
@@ -20,3 +20,12 @@ for (let i = 0; i < totalSquares; i++) {
 
     container.appendChild(square);
 }
+
+//Select input and button
+const enterSizeButton = document.querySelector("#buttonEnter");
+const inputBox = document.querySelector('.inputSize');
+
+enterSizeButton.addEventListener("click", () => {
+    const side = +inputBox.value;
+    
+});
