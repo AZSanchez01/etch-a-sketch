@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.canvas-input {
+    margin: 5px;
 }
 .container {
     display: flex;
