@@ -16,6 +16,9 @@ function createCanvas (side = 16, containerSize = 600) {
         square.addEventListener("mouseover", () => {
             square.style.background = "darkblue";
         })
+        square.addEventListener("mousedown", () => {
+            square.style.background = "darkblue";
+        })
         container.appendChild(square);
     }
 }
