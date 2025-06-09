@@ -28,4 +28,10 @@ const inputBox = document.querySelector('.inputSize');
 enterSizeButton.addEventListener("click", () => {
     const side = +inputBox.value;
     
+    //Delete canvas
+    canvas = document.querySelectorAll(".square");
+    canvas.forEach((square) => square.remove());
+
+    //Create new canvas using input value
+    
 });
